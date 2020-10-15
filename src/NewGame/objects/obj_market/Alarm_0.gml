@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if(bank<m_bank){
 	bank +=product_spd;
-	show_message(bank);
+	//show_message(bank);
 }
 alarm[0] = alarm_time;
 
