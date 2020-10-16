@@ -1,9 +1,9 @@
 
 
-if(instance_exists(Unit_base)&&room!=Room1){
+if(instance_exists(obj_solger)&&room!=Room1){
 if(cooldown<1)	{
 	//instance_create_layer создет обьект указанного типа в указанной позиции на указанном слое
-	if(distance_to_object(Unit_base)<300){
+	if(distance_to_object(obj_solger)<300){
 	instance_create_layer(x,y,"BulletLayer",obj_archer_bullet)
 	cooldown = 30;
 	}
