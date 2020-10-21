@@ -12,8 +12,6 @@ cooldown = cooldown-1;
 }
 if(hp<0){
 	instance_destroy();
-}else{
-	var pc;
-pc = (hp / max_hp) * 100;
-draw_healthbar(x+15,y+15,x+50,y+50,pc, c_black, c_red, c_lime, 0, true, true);
 }
+
+	

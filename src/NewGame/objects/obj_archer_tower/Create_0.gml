@@ -1,3 +1,3 @@
-max_hp = 50;
-hp = 50;
+max_hp = 150;
+hp = 150;
 cooldown =0;
