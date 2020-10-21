@@ -1,7 +1,7 @@
 
 	if(cooldown<0){
 		with(other){
-		hp = hp-50;	
+		hp = hp-10;	
 	}
 	cooldown = 20;
 	}
