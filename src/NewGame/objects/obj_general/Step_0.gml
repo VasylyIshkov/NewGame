@@ -27,11 +27,11 @@ for (i = 0; i < instance_number(obj_solger); i += 1)
    }
   /////////////////
    for(i =0;i<cnt; i+=1){
-	    with(obj_solger){
-	   unit[i].skill_cooldown = true;
-	    unit[i].x_attack_build = other.atk_x;
-	    unit[i].y_attack_build = other.atk_y;
-	  unit[i].skill_cooldown =  other.m_skill_cooldown-1;
+	    with(unit[i]){
+	    bool_general_effect= true;
+	    x_attack_build = other.atk_x;
+	    y_attack_build = other.atk_y;
+	  skill_cooldown =  other.m_skill_cooldown-1;
 
    }
    }

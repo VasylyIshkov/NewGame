@@ -1,5 +1,4 @@
 if(bool_general_effect==true){
-	show_message("rjkjdj");
 	if(x_attack_build>0){
 		move_towards_point(x_attack_build,y_attack_build,0.5);
 		if(instance_place (x_attack_build,y_attack_build,obj_building==noone)){
