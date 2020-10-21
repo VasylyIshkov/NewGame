@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(bank<m_bank){
+if(bank<max_bank){
 	bank +=product_spd;
 	//show_message(bank);
 }

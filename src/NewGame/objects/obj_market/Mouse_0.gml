@@ -4,10 +4,10 @@ if(bank>0){
 	if(instance_exists(obj_nefrit_stock)){
 show_message("Собрали ресурсы "+string(bank));
 	//instance_number Возвращает количество активных экземпляров данного объекта.
-	cnt  = instance_number(obj_nefrit_stock);
+	nefrit_stock_count  = instance_number(obj_nefrit_stock);
 	//show_message("Собрали ресурсы "+string(cnt));
-	if(obj_nefrit_stock.bank<(obj_nefrit_stock.m_bank+bank)){
-		sum = bank/cnt;
+	if(obj_nefrit_stock.bank<(obj_nefrit_stock.max_bank+bank)){
+		sum = bank/nefrit_stock_count;
 			obj_nefrit_stock.bank += sum;
             bank = 0;
        }
