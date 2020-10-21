@@ -1,4 +1,5 @@
 hp = 50;
+max_hp = 50;
 cooldown = 0;
 //Находимся ли мы под подчинением генерала
 bool_general_effect = false;
