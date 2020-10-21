@@ -1,9 +1,11 @@
 {
   "resources": [
     {"id":{"name":"obj_solger","path":"objects/obj_solger/obj_solger.yy",},"order":0,},
+    {"id":{"name":"spr_healer","path":"sprites/spr_healer/spr_healer.yy",},"order":9,},
     {"id":{"name":"obj_archer_tower","path":"objects/obj_archer_tower/obj_archer_tower.yy",},"order":2,},
     {"id":{"name":"spr_archer_tower","path":"sprites/spr_archer_tower/spr_archer_tower.yy",},"order":2,},
     {"id":{"name":"obj_general","path":"objects/obj_general/obj_general.yy",},"order":9,},
+    {"id":{"name":"obj_healer","path":"objects/obj_healer/obj_healer.yy",},"order":10,},
     {"id":{"name":"spr_unit_base_icon","path":"sprites/spr_unit_base_icon/spr_unit_base_icon.yy",},"order":7,},
     {"id":{"name":"spr_solger","path":"sprites/spr_solger/spr_solger.yy",},"order":0,},
     {"id":{"name":"spr_general","path":"sprites/spr_general/spr_general.yy",},"order":8,},
