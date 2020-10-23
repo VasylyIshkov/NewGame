@@ -1,9 +1,4 @@
-//all_unit_count = instance_number()(obj_unit);
-//unit_counter=0;
-//for(i = 0;i<unit_count;i+=1){
- //  t_unit =instance_find(obj_unit,i);
-   
-//}
+// блок движения
 if(instance_exists(obj_unit)&&direction_cooldown=max_direction_cooldown){
 	
 all_unit_count = instance_number(obj_unit);
@@ -35,8 +30,7 @@ unit_low_hp_count = 0;
  other.nearest_unit_low_hp_x= x;
  other.nearest_unit_low_hp_y = y;
  }
- show_message("What?");
-  move_towards_point(nearest_unit_low_hp_x,nearest_unit_low_hp_y,1);
+  move_towards_point(nearest_unit_low_hp_x,nearest_unit_low_hp_y,0.5);
  
  }
  direction_cooldown=0;
@@ -44,3 +38,10 @@ unit_low_hp_count = 0;
  
 }
 direction_cooldown+=1;
+//конец блока движения
+
+if(!instance_exists(obj_building)){
+	instance_destroy();
+	}
+
+if(hp<0) instance_destroy();
