@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"obj_solger","path":"objects/obj_solger/obj_solger.yy",},"order":0,},
     {"id":{"name":"spr_healer","path":"sprites/spr_healer/spr_healer.yy",},"order":9,},
+    {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},"order":0,},
     {"id":{"name":"obj_archer_tower","path":"objects/obj_archer_tower/obj_archer_tower.yy",},"order":2,},
     {"id":{"name":"spr_archer_tower","path":"sprites/spr_archer_tower/spr_archer_tower.yy",},"order":2,},
     {"id":{"name":"obj_general","path":"objects/obj_general/obj_general.yy",},"order":9,},
