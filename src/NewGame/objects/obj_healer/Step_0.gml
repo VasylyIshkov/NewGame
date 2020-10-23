@@ -59,5 +59,4 @@ if(skill_cooldown=0){
 }
 else{
 	skill_cooldown-=1;
-	show_message("hj");
 }
