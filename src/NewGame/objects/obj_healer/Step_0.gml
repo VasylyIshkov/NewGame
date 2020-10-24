@@ -33,6 +33,9 @@ unit_low_hp_count = 0;
   move_towards_point(nearest_unit_low_hp_x,nearest_unit_low_hp_y,0.5);
  
  }
+ else{
+	 move_towards_point(x,y,0);
+}
  direction_cooldown=0;
  
  
