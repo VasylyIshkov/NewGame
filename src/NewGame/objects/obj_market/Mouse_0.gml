@@ -7,6 +7,7 @@ show_message("Собрали ресурсы "+string(bank));
 	nefrit_stock_count  = instance_number(obj_nefrit_stock);
 	//show_message("Собрали ресурсы "+string(cnt));
 	if(obj_nefrit_stock.bank<(obj_nefrit_stock.max_bank+bank)){
+		global.nefrit_count+=bank;
 		sum = bank/nefrit_stock_count;
 			obj_nefrit_stock.bank += sum;
             bank = 0;
