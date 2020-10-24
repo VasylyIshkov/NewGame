@@ -1,8 +1,10 @@
 {
   "resources": [
+    {"id":{"name":"spr_archer","path":"sprites/spr_archer/spr_archer.yy",},"order":12,},
     {"id":{"name":"obj_solger","path":"objects/obj_solger/obj_solger.yy",},"order":0,},
     {"id":{"name":"obj_ninja","path":"objects/obj_ninja/obj_ninja.yy",},"order":11,},
     {"id":{"name":"spr_healer","path":"sprites/spr_healer/spr_healer.yy",},"order":9,},
+    {"id":{"name":"obj_subordinate_units","path":"objects/obj_subordinate_units/obj_subordinate_units.yy",},"order":15,},
     {"id":{"name":"spr_ninja","path":"sprites/spr_ninja/spr_ninja.yy",},"order":10,},
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},"order":0,},
     {"id":{"name":"obj_archer_tower","path":"objects/obj_archer_tower/obj_archer_tower.yy",},"order":2,},
@@ -14,6 +16,7 @@
     {"id":{"name":"spr_solger","path":"sprites/spr_solger/spr_solger.yy",},"order":0,},
     {"id":{"name":"spr_nefrit_count","path":"sprites/spr_nefrit_count/spr_nefrit_count.yy",},"order":11,},
     {"id":{"name":"spr_general","path":"sprites/spr_general/spr_general.yy",},"order":8,},
+    {"id":{"name":"obj_archer","path":"objects/obj_archer/obj_archer.yy",},"order":14,},
     {"id":{"name":"spr_market","path":"sprites/spr_market/spr_market.yy",},"order":4,},
     {"id":{"name":"spr_nefrit_stock","path":"sprites/spr_nefrit_stock/spr_nefrit_stock.yy",},"order":5,},
     {"id":{"name":"obj_market","path":"objects/obj_market/obj_market.yy",},"order":4,},

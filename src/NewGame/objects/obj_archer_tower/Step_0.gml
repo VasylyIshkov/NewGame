@@ -13,6 +13,7 @@ if(cooldown<1)	{
 		speed = 5;
 		
 		image_angle = direction-90;
+		target = true;
 	}
 	}
 }

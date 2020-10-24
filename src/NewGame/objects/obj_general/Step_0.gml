@@ -24,10 +24,10 @@ if(cooldown = 0){
 var i;
 controlled_units = 0;
 //instance_find(obj_solger,5)) ищем 5 солдат, 5 это количество водчиняемых воинов на первом уровне 
-for (i = 0; i < instance_number(obj_solger); i += 1)
+for (i = 0; i < instance_number(obj_subordinate_units); i += 1)
    {
-	   if (point_distance(x, y, instance_find(obj_solger,i).x, instance_find(obj_solger,i).y) < 100&& controlled_units<max_controlled_units){//тут еще надо разобраться с координатами
-       unit[controlled_units] = instance_find(obj_solger,i);
+	   if (point_distance(x, y, instance_find(obj_subordinate_units,i).x, instance_find(obj_subordinate_units,i).y) < 100&& controlled_units<max_controlled_units){//тут еще надо разобраться с координатами
+       unit[controlled_units] = instance_find(obj_subordinate_units,i);
        controlled_units++;   
 	   }
    }
