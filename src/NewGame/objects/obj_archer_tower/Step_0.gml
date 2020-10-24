@@ -3,7 +3,7 @@
 if(instance_exists(obj_unit)){
 if(cooldown<1)	{
 	//instance_create_layer создет обьект указанного типа в указанной позиции на указанном слое
-	if(distance_to_object(obj_unit)<300){
+	if(distance_to_object(obj_unit)<200){
 		
 	bullet_id = instance_create_layer(x,y,"BulletLayer",obj_archer_bullet);
 	cooldown = 30;
@@ -14,6 +14,7 @@ if(cooldown<1)	{
 		
 		image_angle = direction-90;
 		target = true;
+		attack = other.attack;
 	}
 	}
 }

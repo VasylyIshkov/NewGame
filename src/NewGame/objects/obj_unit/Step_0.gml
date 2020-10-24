@@ -1,6 +1,6 @@
 if(mouse_check_button(mb_left) && cooldown<1){
 	if(ninja_count>0){
-		instance_create_layer(mouse_x,mouse_y,"EnemyLayer",obj_ninja);
+		instance_create_layer(mouse_x,mouse_y,"EnemyLayer",obj_archer);
 	ninja_count -=1;
 	cooldown = 20;
 	}
