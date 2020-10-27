@@ -54,7 +54,9 @@ if(skill_cooldown=0){
    {
 	   if (point_distance(x, y, instance_find(obj_unit,i).x, instance_find(obj_unit,i).y) < 100){//тут еще надо разобраться с координатами
        with(instance_find(obj_unit,i)){
+		   if(x!=other.x&&y!=other.y){
 		   hp+=10;
+		   }
 	   }
 	   }
    }
