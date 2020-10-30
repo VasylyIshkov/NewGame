@@ -35,7 +35,7 @@
     {"id":{"name":"obj_archer_bullet","path":"objects/obj_archer_bullet/obj_archer_bullet.yy",},"order":1,},
     {"id":{"name":"spr_train_units","path":"sprites/spr_train_units/spr_train_units.yy",},"order":13,},
     {"id":{"name":"spr_archer_bullet","path":"sprites/spr_archer_bullet/spr_archer_bullet.yy",},"order":1,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"rm_home","path":"rooms/rm_home/rm_home.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
@@ -50,7 +50,7 @@
     "children": [],
   },
   "RoomOrder": [
-    {"name":"Room1","path":"rooms/Room1/Room1.yy",},
+    {"name":"rm_home","path":"rooms/rm_home/rm_home.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

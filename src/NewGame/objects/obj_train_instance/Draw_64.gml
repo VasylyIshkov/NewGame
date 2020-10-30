@@ -1,1 +1,1 @@
-draw_text(x,y,string(count));
+draw_text(x+20,y+20,string(count));

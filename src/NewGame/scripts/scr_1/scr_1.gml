@@ -35,9 +35,9 @@ function set_unit_train(param){
 	}
 }
 	
-	function set_unit_number(Instance_id,count){
-		tmp_count = count;
-		with(Instance_id){
+	function set_unit_number(Instance_id,coun){
+		tmp_count = coun;
+		with(instance_id(Instance_id)){
 		count = other.tmp_count;
 		}
 	}
