@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_nefrit_stock",
-    "path": "sprites/spr_nefrit_stock/spr_nefrit_stock.yy",
+    "name": "spr_empty",
+    "path": "sprites/spr_empty/spr_empty.yy",
   },
   "solid": false,
   "visible": true,

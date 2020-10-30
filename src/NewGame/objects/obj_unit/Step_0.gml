@@ -1,4 +1,4 @@
-if(mouse_check_button(mb_left) && cooldown<1){
+if(keyboard_check(vk_shift) && cooldown<1){
 	if(ninja_count>0){
 		instance_create_layer(mouse_x,mouse_y,"EnemyLayer",obj_archer);
 	ninja_count -=1;
