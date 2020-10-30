@@ -2,7 +2,10 @@ if(mouse_check_button_pressed(mb_left)){
 switch(instance_position(mouse_x, mouse_y,obj_train_instance)){
 	case unit_train_instance[0]:{
 		set_unit_train("healer");
-		set_unit_number(unit_train_instance[0],global.healer_count);
+		//set_unit_number(unit_train_instance[0],global.healer_count);
+		with(unit_train_instance[0]){
+			count = global.healer_count;
+		}
 	}break;
 	case unit_train_instance[1]:{
 		set_unit_train("general");

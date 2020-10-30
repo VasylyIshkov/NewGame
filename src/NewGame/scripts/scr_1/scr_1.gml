@@ -36,7 +36,8 @@ function set_unit_train(param){
 }
 	
 	function set_unit_number(Instance_id,count){
+		tmp_count = count;
 		with(Instance_id){
-		draw_text(60,60,count);
+		count = other.tmp_count;
 		}
 	}
