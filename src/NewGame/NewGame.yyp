@@ -5,6 +5,7 @@
     {"id":{"name":"obj_ninja","path":"objects/obj_ninja/obj_ninja.yy",},"order":11,},
     {"id":{"name":"spr_healer","path":"sprites/spr_healer/spr_healer.yy",},"order":9,},
     {"id":{"name":"obj_subordinate_units","path":"objects/obj_subordinate_units/obj_subordinate_units.yy",},"order":15,},
+    {"id":{"name":"obj_train_instance","path":"objects/obj_train_instance/obj_train_instance.yy",},"order":17,},
     {"id":{"name":"spr_ninja","path":"sprites/spr_ninja/spr_ninja.yy",},"order":10,},
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},"order":0,},
     {"id":{"name":"obj_archer_tower","path":"objects/obj_archer_tower/obj_archer_tower.yy",},"order":2,},
